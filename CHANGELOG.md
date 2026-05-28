@@ -9,6 +9,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- changelog -->
 
+## [v1.13.0](https://github.com/agentjido/req_llm/compare/v1.12.0...v1.13.0) (2026-05-28)
+
+
+
+
+### Features:
+
+* anthropic: support claude opus 4.8 (#732) by mikehostetler
+
+* Otel sub-span allocation to parent spans by Vasilis Spilka
+
+* leave JSON encoding to Req's native encode step by mikehostetler
+
+* providers: add built-in Ollama provider by cash-mckeeman
+
+* Add Mistral support for Azure (#721) by Vasilis Spilka
+
+### Bug Fixes:
+
+* stream Google JSON array chunks incrementally (#720) by mikehostetler
+
+* emit signal when streamed tool args are lost by Manuel Zubieta
+
+* avoid record typespec conflict by mikehostetler
+
 ## [v1.12.0](https://github.com/agentjido/req_llm/compare/v1.11.0...v1.12.0) (2026-05-22)
 
 
