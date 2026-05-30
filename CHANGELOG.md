@@ -9,6 +9,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- changelog -->
 
+## [v1.14.0](https://github.com/agentjido/req_llm/compare/v1.13.0...v1.14.0) (2026-05-30)
+
+
+
+
+### Features:
+
+* providers: add OpenAI image edit support by Nicolò G.
+
+### Bug Fixes:
+
+* streaming: handle iodata request bodies (#734) by mikehostetler
+
 ## [v1.13.0](https://github.com/agentjido/req_llm/compare/v1.12.0...v1.13.0) (2026-05-28)
 
 
